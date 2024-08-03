@@ -115,7 +115,7 @@ print("------------Aritmetica Simple 2-------------------------------")
 numero1n= int(input("Introduce un numero: "))
 numero2n= int(input("Introduce otro numero: "))
 numero3n= int(input("Introduce otro numero: "))
-aritmetica2= numero1n – numero2n / numero3n * (numero3n + numero1n)
+aritmetica2= numero1n - numero2n / numero3n * (numero3n + numero1n)
 print("El resultado de ", numero1n,"-", numero2n,"/",numero3n,"*","(",numero3n,"+",numero1n,")","=",aritmetica2)
 
 #Ejerccios 15: Aritmetica Simple 3
