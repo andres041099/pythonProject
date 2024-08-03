@@ -20,6 +20,14 @@ else:
 
 # Ejercicio 3: Verificar Positividad
 print("Ejercicio Verificar Positividad")
-numeroVerificar = input("Introduce un numero: ")
+numeroVerificar = int(input("Introduce un numero: "))
 if numeroVerificar < 0:
     print("El numero que introdujiste es negativo")
+elif numeroVerificar >0:
+    print("El numero que introdujiste es positivo")
+else:
+    print("El numero que introdujiste es 0")
+
+# Ejercicio 4: Clasificación de Edad
+print("Ejercicio Verificar Positividad")
+numeroVerificar = int(input("Introduce un numero: "))
