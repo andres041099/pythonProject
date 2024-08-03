@@ -1,0 +1,25 @@
+Tarea 3
+#Ejercicio 1: Par o Impar
+print("Ejercicio Par o Impar")
+numeroAIntroduir = int(input("Introduce un numero entero: "))
+if numeroAIntroduir % 2 == 0:
+    print("el numero es para")
+else:
+    print("es impar")
+# Ejercicio 2: Comparar Tres Números
+print("Ejercicio Comparar Tres Números")
+numeroIntroducir = input("Introduce un numero: ")
+numeroIntroducir2 = input("Introduce otro numero: ")
+numeroIntroducir3 = input("Introduce otro numero: ")
+if numeroIntroducir>numeroIntroducir2:
+    print("el Primer numero introducido es mayor")
+elif numeroIntroducir2>numeroIntroducir3:
+    print("El segundo numero es Mayor")
+else:
+    print("El tercer numero es mayor")
+
+# Ejercicio 3: Verificar Positividad
+print("Ejercicio Verificar Positividad")
+numeroVerificar = input("Introduce un numero: ")
+if numeroVerificar < 0:
+    print("El numero que introdujiste es negativo")
