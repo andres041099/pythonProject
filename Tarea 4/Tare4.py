@@ -4,7 +4,6 @@ tuPalabra= input("introduce una palabra: ")
 for i in range(1,11):
     print("Tu palabra es",tuPalabra)
 print("---------------------------------------------")
-
 #Ejercicio 2: Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
 print("------Programa para introducir Tu Edad------")
 tuEdad= int(input("introduce tu edad: "))
@@ -26,7 +25,6 @@ while contadorPar<tuNumeroPositivoPar:
     contadorPar+=1
     if contadorPar%2==0:
         print(contadorPar, end=",")
-
 #Ejercicio 5: Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas.
 print("------Programa para introducir un numero positivo para presentar hacia atras------")
 numeroEnteroPositivo= int(input("introduce numero entero positivo:"))
@@ -52,7 +50,6 @@ while contraseña_introducida != contraseña_correcta:
 print("¡Contraseña correcta!")
 #Ejercicio Alterno: Escribir un programa que utilice la librería random de Python crear un numero random del 1 al 100 y pedirle al usuario que adivine el numero e indicarle cuando esta demasiado lejos o demasiado cerca del numero hasta que lo encuentre.
 import random
-
 print("------Adivina el numero------")
 numero_aleatorio = random.randint(1, 100)
 adivinanza = int(input("Adivina el número (entre 1 y 100): "))
