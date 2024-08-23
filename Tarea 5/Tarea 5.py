@@ -71,7 +71,7 @@ def pantallaPromedio():
     calcularPromedio1= int(input("Introduce un numero: "))
     calcularPromedio2 = int(input("Introduce otro numero: "))
     calcularPromedio3 = int(input("Introduce un ultimo numero: "))
-    print("Los numeros Introducidos son: ",calcularPromedio1, calcularPromedio2,calcularPromedio3,end=",")
+    print("Los numeros Introducidos son: ",calcularPromedio1, calcularPromedio2,calcularPromedio3, end=",")
     print(f"la Formula de los Datos es: ({calcularPromedio1}+{calcularPromedio2}+{calcularPromedio3})/3")
     print("El Promedio es: ", calcular_promedio(calcularPromedio1,calcularPromedio2,calcularPromedio3))
     print("------------------------------------------------------------------------------------------")
