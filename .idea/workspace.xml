@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eb31c867-0cd9-42ff-b7c4-004e76e2525d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea 5/Documentos/.~lock.Practica 5 Estudiantes.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea 5/Documentos/Practica 5 Estudiantes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea 5/Documentos/Practica 5 Estudiantes.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea 5/Tarea 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea 5/Tarea 5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Tare4.executor": "Run",
-    "Python.Tarea 2.executor": "Run",
-    "Python.Tarea 3.executor": "Run",
-    "Python.Tarea 5.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Usuario/Documents/Cursos/Python/pythonProject/Tarea 5/Documentos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Tare4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/PycharmProjects/pythonProject&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\Documents\Cursos\Python\pythonProject\Tarea 5\Documentos" />
