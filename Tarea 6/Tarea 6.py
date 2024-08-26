@@ -13,8 +13,8 @@ def ejercicio1():
     print("2-raiz cuadrada")
     opcion= int(input("Que deseas hacer: "))
     if opcion == 1:
-        introducir= int(input("Introduce un numero"))
-        introducir2 = int(input("Introduce un numero"))
+        introducir= int(input("Introduce un numero: "))
+        introducir2 = int(input("Introduce un numero: "))
         print(f'El resultado de la potencia que deceas hacer de {introducir} a la {introducir2}='
               f'{potencia(introducir,introducir2)}')
     elif opcion == 2:
@@ -25,18 +25,19 @@ def ejercicio1():
         print(f'no existe{opcion} usa otro')
 #Ejercicio 2: Conversor de Unidades de Longitud
 def metroAKilometros(metros):
-    kilometros= 1000
-    return metros /kilometros
+    KilometrosEquivalentes= 1000
+    unKilometro= 1
+    return (metros*unKilometro) /KilometrosEquivalentes
 def kilometrosAMillas(kilometros):
-    millas=0.621371
-    return  kilometros* millas
+    millaEquivalente=1.60934
+    return  round(kilometros/millaEquivalente)
 def millasAMetros(millas):
-    metros = 1609.34
-    return millas * metros
+    metrosEquivalente = 1609.34
+    return round(millas*metrosEquivalente)
 def ejercicio2():
     print("--------------------------------------------------------")
     print("Bienvenido a Calculadora la Longitud")
-    print("1- De millas a Kilometros")
+    print("1- De Metro a Kilometros")
     print("2- De Kilometros a milla")
     print("3-Millas a Metros")
     opcion = int(input("Que deseas hacer: "))
@@ -45,10 +46,10 @@ def ejercicio2():
         print(f'El resultado de {introducir}= {metroAKilometros(introducir)} km')
     elif opcion == 2:
         introducir = int(input("Introduce un numero: "))
-        print(f'El resultado de {introducir}= {metroAKilometros(introducir)} MI')
+        print(f'El resultado de {introducir}= {kilometrosAMillas(introducir)} MI')
     elif opcion == 3:
         introducir = int(input("Introduce un numero: "))
-        print(f'El resultado de {introducir}= {metroAKilometros(introducir)} Mtr')
+        print(f'El resultado de {introducir}= {millasAMetros(introducir)} Mtr')
     else:
         print(f'no existe{opcion} usa otro')
 #Ejercicio 3: Cálculo del Perímetro de un Rectángulo
@@ -58,8 +59,9 @@ def calcular_perimetro_rectangulo(largo, ancho):
 def ejercicio3():
     print("--------------------------------------------------------")
     print("Bienvenido a Calculadora el Perímetro de un Rectángulo")
-    introducir = int(input("Introduce un numero: "))
-    print(f'El resultado de {introducir}= {calcular_perimetro_rectangulo(introducir)}')
+    largo = int(input("Introduce un Largo: "))
+    ancho = int(input("Introduce un Ancho: "))
+    print(f'El resultado de {largo}= {calcular_perimetro_rectangulo(largo,ancho)}')
 #Ejercicio 4: Contador de Consonantes
 def contar_consonantes(texto):
     contador = 0
