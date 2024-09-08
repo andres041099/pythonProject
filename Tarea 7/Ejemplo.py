@@ -26,59 +26,59 @@
 libros = []
 
 
-def agregar_libro(agregar):
-    if agregar in libros:
-        libros.append(agregar)
-        print(f"Libro '{agregar}' agregado con éxito.")
-    else:
-        print("esta vacio. agrega algo")
+# def agregar_libro(agregar):
+#     if agregar in libros:
+#         libros.append(agregar)
+#         print(f"Libro '{agregar}' agregado con éxito.")
+#     else:
+#         print("esta vacio. agrega algo")
 
 
-def vender_libro(vender):
-    if vender in libros:
-        libros.remove(vender)
-        print(f"Libro '{vender}' vendido.")
-    else:
-        print(f"No se pudo vender porque el libro '{vender}' no está en la lista.")
+# def vender_libro(vender):
+#     if vender in libros:
+#         libros.remove(vender)
+#         print(f"Libro '{vender}' vendido.")
+#     else:
+#         print(f"No se pudo vender porque el libro '{vender}' no está en la lista.")
 
 
-def mostrar_libros():
-    if libros:
-        print("Los libros disponibles son:")
-        for libro in libros:
-            print(f"- {libro}")
-    else:
-        print("No hay libros en la lista.")
+# def mostrar_libros():
+#     if libros:
+#         print("Los libros disponibles son:")
+#         for libro in libros:
+#             print(f"- {libro}")
+#     else:
+#         print("No hay libros en la lista.")
+
+#codigo ejemplo
+# def menuBliblioteca():
+#     while True:
+#         print("\nGestor de Venta de Libros")
+#         print("1- Agregar libro")
+#         print("2- Vender libro")
+#         print("3- Mostrar libros")
+#         print("4- Salir")
+
+#         seleccion = input("Selecciona una opción: ")
+
+#         if seleccion == "4":
+#             print("Gracias por utilizar esta app.")
+#             break  # Sale del bucle
+
+#         elif seleccion == "1":
+#             introduirLibro = input("Introduce el nombre del libro a agregar: ")
+#             agregar_libro(introduirLibro)
+
+#         elif seleccion == "2":
+#             venderLibro = input("Introduce el nombre del libro a vender: ")
+#             vender_libro(venderLibro)
+
+#         elif seleccion == "3":
+#             mostrar_libros()
+
+#         else:
+#             print("Opción no válida, por favor selecciona una opción correcta.")
 
 
-def menuBliblioteca():
-    while True:
-        print("\nGestor de Venta de Libros")
-        print("1- Agregar libro")
-        print("2- Vender libro")
-        print("3- Mostrar libros")
-        print("4- Salir")
-
-        seleccion = input("Selecciona una opción: ")
-
-        if seleccion == "4":
-            print("Gracias por utilizar esta app.")
-            break  # Sale del bucle
-
-        elif seleccion == "1":
-            introduirLibro = input("Introduce el nombre del libro a agregar: ")
-            agregar_libro(introduirLibro)
-
-        elif seleccion == "2":
-            venderLibro = input("Introduce el nombre del libro a vender: ")
-            vender_libro(venderLibro)
-
-        elif seleccion == "3":
-            mostrar_libros()
-
-        else:
-            print("Opción no válida, por favor selecciona una opción correcta.")
-
-
-menuBliblioteca()
+# menuBliblioteca()
 
