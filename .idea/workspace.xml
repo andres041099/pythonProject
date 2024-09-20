@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eb31c867-0cd9-42ff-b7c4-004e76e2525d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea 7/Ejemplo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea 7/Ejemplo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto Final/PROYECTO FINAL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/PROYECTO FINAL.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,36 +34,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Ejemplo.executor": "Run",
-    "Python.Tare4.executor": "Run",
-    "Python.Tarea 2.executor": "Run",
-    "Python.Tarea 3.executor": "Run",
-    "Python.Tarea 5.executor": "Run",
-    "Python.Tarea 6.executor": "Run",
-    "Python.Tarea 7.executor": "Run",
-    "Python.Tarea 8.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/pythonProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Ejemplo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PROYECTO FINAL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tare4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tarea 8.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/PycharmProjects/pythonProject&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\Documents\Cursos\Python\pythonProject\Tarea 5\Documentos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\PycharmProjects\pythonProject\Proyecto Final\Documento Tarea" />
       <recent name="C:\Users\Usuario\PycharmProjects\pythonProject\Tarea 8\Documento Tarea" />
       <recent name="C:\Users\Usuario\PycharmProjects\pythonProject\Tarea 7\Documento de Apoyo" />
       <recent name="C:\Users\Usuario\PycharmProjects\pythonProject\Tarea 7\Documentos Tarea" />
       <recent name="C:\Users\Usuario\PycharmProjects\pythonProject\Tarea 7" />
-      <recent name="C:\Users\Usuario\PycharmProjects\pythonProject\Tarea 6\Documento Tarea" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Tarea 8">
+  <component name="RunManager" selected="Python.PROYECTO FINAL">
     <configuration name="Ejemplo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -86,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tarea 5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PROYECTO FINAL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tarea 5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyecto Final" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tarea 5/Tarea 5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyecto Final/PROYECTO FINAL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PROYECTO FINAL" />
         <item itemvalue="Python.Tarea 8" />
         <item itemvalue="Python.Ejemplo" />
         <item itemvalue="Python.Tarea 7" />
         <item itemvalue="Python.Tarea 6" />
-        <item itemvalue="Python.Tarea 5" />
       </list>
     </recent_temporary>
   </component>
